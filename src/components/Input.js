@@ -1,3 +1,6 @@
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
+
 /*
 INPUT Instructions
 
@@ -33,8 +36,6 @@ STEP 6:
   For the input to reset correctly, it needs to "drink" its value from state!
   We need to add an extra prop to the <input /> element like so: value={inputValue}
 */
-
-import React from 'react'; /* STEP 0 */
 
 export default function Input() {
   /* STEP 1 */

@@ -1,3 +1,6 @@
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
+
 /*
 SPINNER Instructions
 
@@ -36,8 +39,6 @@ STEP 4:
   This click handler needs to toggle the spinner by setting "whether on" to be the opposite of what it currently is.
   Do you remember the operator we use to do "not"?
 */
-
-import React from 'react'; /* STEP 0 */
 
 export default function Spinner() {
 /* STEP 1 */

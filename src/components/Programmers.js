@@ -1,3 +1,6 @@
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
+
 /*
 PROGRAMMERS Instructions
 
@@ -11,7 +14,6 @@ We can only feature one awesome programmer at a time.
 Find comments below to help you along.
 */
 
-import React from 'react';
 
 // Use this variable ONLY to initialize a slice of state!
 // There is something in the JSX right now breaking this rule...

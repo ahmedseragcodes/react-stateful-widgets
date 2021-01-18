@@ -1,3 +1,6 @@
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
+
 /*
 SQUARES Instructions
 
@@ -14,7 +17,6 @@ Only one square (or none) can be active at any given point.
 Find comments below to help you along.
 */
 
-import React from 'react';
 
 // Use this variable ONLY to initialize a slice of state!
 const listOfSquareIds = ['sqA', 'sqB', 'sqC', 'sqD'];
